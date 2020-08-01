@@ -1,0 +1,53 @@
+{% extends "home.twig" %}
+{% block content %}
+<section class="programme">
+    <div class="container contain-form">
+        <div class="programme-item my-3 text-center col-md-12 p-0">
+            <h3 class="main">استمـارة حجزالحج لعام 2020</h3>
+            <div class="programme-content mt-5 col-md-12">
+                <h3 class="">للعملاء الراغبين فى تسجيل بياناتهم لحجز برامج الحج  يمكنك ملئ الاستمارة التالية</h3>
+                <div class="haj mt-3 px-1">
+                    <img class="haj4 my-5" src="img/fa.jpg">
+                </div>
+                <div class="programme-item my-3 haj p-1 text-left col-md-12 p-2 px-4">
+                    <form action="" class="form-groups">
+                        <label class="" for="name"> اسم العميل</label>
+                        <input  id="name" class="col-md-12 my-2 rounded text-left" type="text" name="name" placeholder="الاجابه">
+                        <label class=" mt-4" for="phone"> رقم الموبايل</label>
+                        <input id="phone" class="col-md-12 my-2 rounded text-left" type="text" name="phone"  placeholder="الاجابه">
+                        <p class=" mt-4">اى المستويات تفضل فى الحج لعام 2020 م *</p>
+                        <div class="form-check d-flex  my-2">
+                            <input class="form-check-input mr-2" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="defaultCheck1">
+                                برى اطول فتره تحسين 5 نجوم 8 ايام برج الساعه
+                            </label>
+                        </div>
+                        <div class="form-check d-flex  my-3">
+                            <input class="form-check-input mr-2" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                طيران اقتصادى اطول فترة تحسين 5 نجوم 8 ايام برج الساعه
+                            </label>
+                        </div>
+                        <div class="form-check d-flex my-3">
+                            <input class="form-check-input mr-2 p-2" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"">
+                            <label class="form-check-label" for="defaultCheck1">
+                                طيران 4 نجوم
+                            </label>
+                        </div>
+                        <div class="form-check d-flex  my-2">
+                            <input class="form-check-input mr-2" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                طيران 5  نجوم
+                            </label>
+                        </div>
+                        <button value="submit" class="btn px-4 mt-3 warning text-white">ارسال</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    {% endblock %}

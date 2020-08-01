@@ -1,0 +1,46 @@
+{% extends "home.twig" %}
+    {% block content %}
+<section class="contact">
+    <div class="container">
+        <div class="contact-item text-center">
+            <h2 class="main"> كن علي تواصل معنا </h2>
+            <img class="my-5" src="img/team1.jpg" alt="">
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <h3 class="main"> المركز الرئيسي</h3>
+                <h5><i class="fas fa-map-marker-alt main  mr-2 my-3"></i>28 عبدالله العربي - امتدادالطيران - مدينة نصر</h5>
+                <h5><i class="fas fa-envelope my-1  main mr-2"></i>info@abctraveleg.com</h5>
+                <h5><i class="fas fa-phone main my-2 mr-2"></i> 0223879458 - 0223879459‎</h5>
+                <h5><i class="fas fa-mobile-alt my-2  main mr-2"></i> 01023016644 - 01285032187 - 01156148100</h5>
+            </div>
+            <div class="col-md-4 col-sm-12 text-left">
+                <h3 class="main"> فروعنا</h3>
+                <h5><i class="fas fa-location-arrow mr-2 my-2 main"></i>القاهره - المعادى</h5>
+                <h5><i class="fas fa-location-arrow mr-2 my-1 main"></i>كفر الشيخ - الحامول</h5>
+                <h5> <i class="far fa-map mr-2 main"></i> الجيزه - فيصل</h5>
+                <h5> <i class="far fa-map mr-2 main"></i> الغربيه - كفر الزيات</h5>
+                <h5> <i class="far fa-map mr-2 main"></i> شمال سيناء - بئر العبد</h5>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map">
+    <div class="container">
+        <div class="row contact-items">
+            <div class="location col-lg-6 col-sm-12">
+                <iframe class="w-100 h-100 rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13814.454002164519!2d31.3285104!3d30.0479443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60c956a01edc4e63!2z2KXZitmHIC7YqNmJIC7Ys9mJINmE2YTYs9mK2KfYrdip!5e0!3m2!1sen!2seg!4v1575378217965!5m2!1sen!2seg" allowfullscreen=""></iframe>            
+            </div>
+            <div class="form col-lg-6 col-sm-12">
+                <form action="">
+                    <input class="col-md-12 my-2 rounded" type="text" name="name" placeholder="الاسم">
+                    <input  class="col-md-12 my-2 rounded" type="email" name="mail"  placeholder="البريد الالكتروني">
+                    <input class="col-md-12 my-2 rounded" type="text" name="code" placeholder="الهاتف">
+                    <textarea class="col-md-12 my-2 rounded" name="message"  cols="30" rows="6" placeholder="الرساله"></textarea>
+                    <button value="submit" class="btn px-4 mt-3 warning text-white">ارسال</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+</section>
+{% endblock %}

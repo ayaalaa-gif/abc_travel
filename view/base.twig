@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% block head %}
+    <meta charset="utf-8">
+    <title>شركة اي بي سي للسياحه</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=hanimation,dubai,sky-bold,smartman" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link rel="icon" sizes="200x200" href="img/logo.png">
+{% endblock %}
+</head>
+<body class="rtl">
+{% block nav %}
+    <nav class="navbar navbar-expand-lg py-3 w-100">
+        <div class="container">
+            <a class="navbar-brand logo" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">الرئيسيه <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="about.php">عن الشركه</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            البرامج
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-dark"   href="index.php#programme">برامج الحج</a>
+                            <a class="dropdown-item text-dark"   href="index.php#programme">برامج العمره</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            الفنادق
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-dark" href="hotel.php">فنادق مكه</a>
+                            <a class="dropdown-item text-dark" href="hotel.php">فنادق المدينه</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                الحج و العمره
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-dark" href="form.php">استمارة حجز الحج و العمره</a>
+                            <a class="dropdown-item text-dark" href="omrah.php">مناسك الحج و العمره</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="index.php#gallery">معرض الصور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">اتصل بنا</a>
+                    </li>
+                </ul>
+                <span class="nav-icon text-center face text-white mx-1 bg-success"> <a class="text-white" href="https://api.whatsapp.com/send?phone=+201156148100&text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1" target="_blank"><i class="fab fa-whatsapp mr-1"></i></a></span>
+                <span class="nav-icon text-center face text-white mx-1"><a class="text-white" href="https://www.facebook.com/ABCTravels/" target="_blank"><i class="fab fa-facebook-f mr-1"></i></a></span>
+            </div>
+        </div>
+    </nav>
+{% endblock %}
+{% block content %}
+{% endblock %}
+{% block footer %}
+    <section class="footer p-0">
+        <div class="overlay pt-5 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12">
+                        <h3 class="main">شركة اي بي سي للسياحه</h3>
+                        <p class="text-white my-3">أسست شركة ايه بى سى للسياحة عام 2004 ترخيص رقم 1290 فئة ( أ ) سياحة عامة ..  <br>أكبر نسبة فوز في قرعة الحج وأفضل وأرخص رحلات الحج والعمرة</p>
+                        <h5 class="text-white"><i class="fas fa-map-marker-alt main  mr-2 my-3"></i>28 عبدالله العربي - امتدادالطيران - مدينة نصر</h5>
+                        <h5 class="text-white"><i class="fas fa-envelope  main mr-2"></i>info@abctraveleg.com</h5>
+                    </div>
+                    <div class="contact-item col-md-3 ">
+                        <h4 class="main">روابط هامة</h4>
+                        <div class="links-item d-flex my-3 mt-4">
+                            <span class="text-white"><i class="fas fa-chevron-left  mr-2 "></i></span>
+                            <h6><a class="text-white" href="index.php">الرئيسية</a></h6>
+                        </div>
+                        <div class="links-item d-flex my-3">
+                            <span class="text-white"><i class="fas fa-chevron-left one   mr-2 "></i></span>
+                            <h6><a class="text-white" href="about.php">تعرف علينا</a></h6>
+                        </div>
+                        <div class="links-item d-flex my-3">
+                            <span class="text-white"><i class="fas fa-chevron-left  mr-2 "></i></span>
+                            <h6><a class="text-white" href="contact.php">أتصل بنا</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h3 class="main">فروعنا</h3>
+                        <h5 class="text-white"><i class="fas fa-location-arrow mr-2 my-3 main"></i>القاهره - المعادى</h5>
+                        <h5 class="text-white"> <i class="far fa-map mr-2 main"></i> الجيزه - فيصل</h5>
+                        <button class="btn warning rounded-3 px-5 mt-4"><a class="text-white" href="contact.php">للمزيد</a></button>
+                    </div>
+                </div>
+            </div>
+            <h1>hello</h1>
+            <div class="copy-right mt-3">
+                <div class="text-center text-white">
+                    <p class="mt-4"></p>جميع الحقوق محفوظة لـلشركة ايه بي سي للسياحه ,<a href="https://i2servers.com" class="text-decoration-none text-white" target="_blank"> تصميم و تطوير <span class="main"> i2servers</span></a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,157 @@
+{% extends "base.twig" %}
+    {% block content %}
+        <header class="header">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item headder-content active">
+                    <div class="img-holder col-md-12 w-50 m-auto">
+                        <div class="container">
+                            <img class="py-5" src="img/kalma-text-img%20(1).png" alt="">
+                            <h1 class="text-white text-center">إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-md-block">
+                        <h1>اي بي سي للسياحه اسم له تاريخ</h1>
+                    </div>
+                </div>
+                <div class="carousel-item headder-content">
+                    <div class="img-holder col-md-12 w-50 m-auto">
+                        <div class="container">
+                            <img class="py-5" src="img/kalma-text-img%20(1).png" alt="">
+                            <h1 class="text-center text-white"> فَإِذَا أَمِنْتُمْ فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-md-block">
+                        <h1>عليك النيه و علينا البقيه</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about col-md-6">
+                        <h3> نبذه عن شركة اي بي سي للسياحه</h3>
+                        <p class="mt-4 lead">تأسست شركة ايه بى سى للسياحة عام 2004 ترخيص رقم 1290 فئة ( أ ) سياحة عامة .. أكبر نسبة فوز في قرعة الحج وأفضل وأرخص رحلات الحج والعمرة .وحجز تذاكر الطيران ورحلات السياحة الداخلية والخارجية ، خبرة وأشراف على أعلى مستوى فى خدمة عملائنا الكرام.</p>
+                        <button class="back p-2 px-5 my-3"><a class="text-white" href="about.php"> للمزيد </a></button>
+                    </div>
+                    <div class="video col-md-6">
+                        <video class="w-100 h-100" controls>
+                            <source src="https://abctraveleg.com/data/uploads/ABC.mp4" type="video/mp4">
+                            <source src="https://abctraveleg.com/data/uploads/ABC.mp4" type="video/ogg">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lord">
+            <div class="container">
+                <div class="row">
+                    <img class="w-50" src="img/parallax-text.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="programme">
+            <div class="container">
+                <div class="prog-headding"> <h1 class="main text-center">البرامج</h1></div>
+                <div class="prog-headding"> <h2 class="text-center">فَإِذَا أَمِنْتُمْ فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ</h2></div>
+                <div class="row d-flex flex-row col-md-12">
+                    <div class="prog-item col-md-3  text-center">
+                        <div class="icon bg-white mt-5">
+                            <span class="mt-5"><i class="fas fa-mosque text-white"></i></span>
+                            <div class="mt-3"><h5>حج مستوي  بري<br> تحسين 5 نجوم </h5> </div>
+                            <button class="btn warning px-4 my-3"><a href="prog_list.php" class="text-white">المزيد</a></button>
+                        </div>
+                    </div>
+                    <div class="prog-item col-md-3  text-center">
+                        <div class="icon bg-white mt-5">
+                            <span class="mt-5"><i class="fas fa-kaaba text-white"></i></span>
+                            <div class="mt-3"><h5>مستوي اقتصادى<br> تحسين 5 نجوم</h5> </div>
+                            <button class="btn warning px-4 my-3"><a href="prog_list.php" class="text-white">المزيد</a></button>
+                        </div>
+                    </div>
+                    <div class="prog-item col-md-3  text-center">
+                        <div class="icon bg-white mt-5">
+                            <span class="mt-5"><i class="fas fa-quran text-white"></i></span>
+                            <div class="mt-3"><h5>حج مستوي  <br>  5 نجوم ثاني</h5> </div>
+                            <button class="btn warning px-4 my-3"><a href="prog_list.php" class="text-white">المزيد</a></button>
+                        </div>
+                    </div>
+                    <div class="prog-item col-md-3  text-center">
+                        <div class="icon bg-white mt-5">
+                            <span class="mt-5"><i class="fas fa-mosque text-white"></i></span>
+                            <div class="mt-3"><h5>حج مستوي<br> 5 نجوم اول </h5> </div>
+                            <button class="btn px-4 my-3 warning"><a href="prog_list.php" class="text-white">المزيد</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+        <!-- Customers -->
+        <div class="prog-headding"> <h1 class="main text-center">معرض الصور</h1></div>
+        <div class="prog-headding"> <h2 class="text-center mt-4">وَاَللَّهِ إنَّكِ لَخَيْرُ أَرْضِ اللَّهِ، وَأَحَبُّ أَرْضِ اللَّهِ إلَى اللَّهِ، وَلَوْلَا أَنِّي أُخْرِجْتُ مِنْكِ مَا خَرَجْتُ</h2></div>
+        <div class="slider-1">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <!-- Image Slider -->
+                        <div class="slider-container m">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="image-container ">
+                                            <img class="img-responsive" src="img/haj.png" alt="alternative">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-container">
+                                            <img class="img-responsive" src="img/unnamed.jpg" alt="alternative">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-container">
+                                            <img class="img-responsive" src="img/gallery-2.jpg" alt="alternative">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-container">
+                                            <img class="img-responsive" src="img/gallery7.jpg" alt="alternative">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-container">
+                                            <img class="img-responsive" src="img/gallery8.jpg" alt="alternative">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-container">
+                                            <img class="img-responsive" src="img/gallery-1.jpg" alt="alternative">
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-wrapper -->
+                            </div> <!-- end of swiper container -->
+                        </div> <!-- end of slider-container -->
+                        <!-- end of image slider -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-1 -->
+    </section>
+    {% endblock %}
+
+
